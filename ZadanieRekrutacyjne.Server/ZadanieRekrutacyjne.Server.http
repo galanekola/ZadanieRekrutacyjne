@@ -1,0 +1,6 @@
+@ZadanieRekrutacyjne.Server_HostAddress = http://localhost:5167
+
+GET {{ZadanieRekrutacyjne.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

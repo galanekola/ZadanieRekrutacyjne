@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oolus\\OneDrive\\Pulpit\\Zadanie_Rekrutacyjne\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne.Server\\ZadanieRekrutacyjne.Server.csproj": {}
+    "C:\\Users\\mateu\\source\\repos\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne.Server\\ZadanieRekrutacyjne.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oolus\\OneDrive\\Pulpit\\Zadanie_Rekrutacyjne\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne.Server\\ZadanieRekrutacyjne.Server.csproj": {
+    "C:\\Users\\mateu\\source\\repos\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne.Server\\ZadanieRekrutacyjne.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oolus\\OneDrive\\Pulpit\\Zadanie_Rekrutacyjne\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne.Server\\ZadanieRekrutacyjne.Server.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\source\\repos\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne.Server\\ZadanieRekrutacyjne.Server.csproj",
         "projectName": "ZadanieRekrutacyjne.Server",
-        "projectPath": "C:\\Users\\oolus\\OneDrive\\Pulpit\\Zadanie_Rekrutacyjne\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne.Server\\ZadanieRekrutacyjne.Server.csproj",
-        "packagesPath": "C:\\Users\\oolus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oolus\\OneDrive\\Pulpit\\Zadanie_Rekrutacyjne\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne.Server\\obj\\",
+        "projectPath": "C:\\Users\\mateu\\source\\repos\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne.Server\\ZadanieRekrutacyjne.Server.csproj",
+        "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateu\\source\\repos\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\oolus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,6 +73,10 @@
               "target": "Package",
               "version": "[6.0.0-preview1.24240.8, )"
             },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.66.1, )"
+            },
             "NHibernate": {
               "target": "Package",
               "version": "[5.5.2, )"
@@ -98,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
